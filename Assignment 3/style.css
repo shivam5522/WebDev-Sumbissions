@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.parent{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child{
+    height: 300px;
+    width: 15%;
+    background-color:red;
+}
+
+.parent2{
+    margin-top: 25px;
+    width: 100%;
+}
+.child2{
+    height: 300px;
+    width: 20%;
+    margin-left: 4%;
+    background-color: gray;
+    display: inline-block;
+}
+
+.text{
+    text-align: center;
+    font-size: 30px;
+    font-family: Segoe UI;
+    margin-top: 20px;
+    border: 2px black solid;
+}
